@@ -1,4 +1,3 @@
-package P2012A7PSXXX;
 
 import java.awt.Color;
 import java.awt.GridLayout;
