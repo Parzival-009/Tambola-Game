@@ -95,12 +95,12 @@ public class Dealer implements Runnable {
 			if(gameData.playerSuccessFlag[0] && !gameData.playerSuccessFlag[1]) { 
 				lblGameStatus.setText("PLAYER-1 HAS WON");				
 			} 
-			// STEP-10: Specify Condition to Check if Player1 has won
+			// STEP-10: Specify Condition to Check if Player2 has won
 			
 			else if(gameData.playerSuccessFlag[1] && !gameData.playerSuccessFlag[0]){ 
 				lblGameStatus.setText("PLAYER-2 HAS WON");				
 			} 
-			// STEP-11: Specify Condition to Check if Player1 has won
+			// STEP-11: Specify Condition to Check if both Player1 and Player2 have won
 			
 			else if(gameData.playerSuccessFlag[0] && gameData.playerSuccessFlag[1]) {
 				lblGameStatus.setText("BOTH PLAYER-1 AND PLAYER-2 HAVE WON");				
